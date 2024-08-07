@@ -1,0 +1,133 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Individual Seminar Report
+% LaTeX Template
+% Version 2.0 (14-1-2022)
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{isr} % Font size (can be 10pt, 11pt or 12pt)
+
+\usepackage{lineno}
+\linenumbers
+
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\usepackage{sectsty} % allows control of section heading sizes
+\sectionfont{\fontsize{11}{10}\selectfont}
+
+\usepackage{titlesec}  % this package allows for more compact sectioning
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\title{{\bf General approximations based on neural networks}\\
+{\em Report on the Maxwell Institute Applied and Computational Mathematics Seminar given by G. Karniadakis, Dec. 15, 2021:  Approximating functions, functionals and operators with neural networks for diverse applications}} % Title and subtitle
+
+\author{YourLastname, YourFirstname} % Author and institution
+
+\date{\today} % Date, use \date{} for no date
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the title section
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT AND KEYWORDS
+%----------------------------------------------------------------------------------------
+
+%\renewcommand{\abstractname}{Summary} % Uncomment to change the name of the abstract to something else
+
+%----------------------------------------------------------------------------------------
+%	ESSAY BODY
+%----------------------------------------------------------------------------------------
+
+\section*{Introduction}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.\cite{Smith:2012}  Aenean dictum lacus sem, ut varius ante dignissim ac. Sed a mi quis lectus feugiat aliquam. Nunc sed vulputate velit. Sed commodo metus vel felis semper, quis rutrum odio vulputate. Donec a elit porttitor, facilisis nisl sit amet, dignissim arcu. Vivamus accumsan pellentesque nulla at euismod. Duis porta rutrum sem, eu facilisis mi varius sed. Suspendisse potenti. Mauris rhoncus neque nisi, ut laoreet augue pretium luctus. Vestibulum sit amet luctus sem, luctus ultrices leo. Aenean vitae sem leo.
+
+\section*{Neural network approximation}
+Nullam semper quam at ante convallis posuere.\cite{Smith:2013} Ut faucibus tellus ac massa luctus consectetur. Nulla pellentesque tortor et aliquam vehicula. Maecenas imperdiet euismod enim ut pharetra. Suspendisse pulvinar sapien vitae placerat pellentesque. Nulla facilisi. Aenean vitae nunc venenatis, vehicula neque in, congue ligula.
+
+\section*{Another section}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Fermentum odio eu feugiat pretium nibh ipsum. Mi tempus imperdiet nulla malesuada pellentesque elit eget. Turpis egestas integer eget aliquet nibh praesent tristique magna sit. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat. Mattis enim ut tellus elementum. Odio ut sem nulla pharetra diam sit amet nisl. Tincidunt dui ut ornare lectus sit amet est placerat. Id nibh tortor id aliquet.
+
+Id donec ultrices tincidunt arcu non sodales neque. Egestas tellus rutrum tellus pellentesque eu. Sit amet facilisis magna etiam. Ullamcorper sit amet risus nullam eget felis. Vitae congue eu consequat ac felis donec et. Laoreet sit amet cursus sit amet dictum sit amet justo. Nunc pulvinar sapien et ligula ullamcorper malesuada proin. Id eu nisl nunc mi ipsum faucibus vitae aliquet. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi. Eget gravida cum sociis natoque penatibus et magnis. Integer eget aliquet nibh praesent. Id consectetur purus ut faucibus pulvinar elementum integer enim. Mauris a diam maecenas sed. Morbi tristique senectus et netus et.
+
+Enim diam vulputate ut pharetra sit amet. Pretium nibh ipsum consequat nisl vel pretium lectus quam. Nec ultrices dui sapien eget mi. Mauris pellentesque pulvinar pellentesque habitant morbi tristique. Ornare aenean euismod elementum nisi quis eleifend. Eu sem integer vitae justo eget magna fermentum iaculis. Lacinia quis vel eros donec ac. Id diam vel quam elementum pulvinar etiam non quam. Vel risus commodo viverra maecenas accumsan lacus. Et leo duis ut diam quam nulla porttitor massa id. Massa id neque aliquam vestibulum morbi blandit cursus. Neque sodales ut etiam sit amet nisl purus. Felis eget nunc lobortis mattis. Tincidunt praesent semper feugiat nibh sed pulvinar. Convallis convallis tellus id interdum velit laoreet id donec. Vitae auctor eu augue ut lectus arcu. Magna sit amet purus gravida quis blandit.
+
+Scelerisque varius morbi enim nunc faucibus a pellentesque sit. Metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel. Molestie at elementum eu facilisis sed odio morbi quis. Dictum sit amet justo donec. Lacus suspendisse faucibus interdum posuere. Lectus quam id leo in vitae turpis. Porttitor lacus luctus accumsan tortor posuere ac. A cras semper auctor neque vitae tempus quam pellentesque. Enim sit amet venenatis urna cursus eget nunc. Ac tortor vitae purus faucibus ornare suspendisse sed nisi. Morbi leo urna molestie at elementum eu facilisis. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Erat nam at lectus urna duis convallis convallis. Porttitor massa id neque aliquam vestibulum morbi blandit. Natoque penatibus et magnis dis parturient montes nascetur ridiculus. Tristique nulla aliquet enim tortor. Quisque id diam vel quam elementum pulvinar etiam. Dolor sit amet consectetur adipiscing. Odio aenean sed adipiscing diam.
+
+Nulla aliquet porttitor lacus luctus accumsan tortor posuere. Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae. Pharetra diam sit amet nisl suscipit. Nisl suscipit adipiscing bibendum est ultricies integer. Ac turpis egestas sed tempus. Feugiat in ante metus dictum at tempor commodo ullamcorper. Amet mattis vulputate enim nulla. Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Et magnis dis parturient montes nascetur ridiculus mus mauris vitae. Amet justo donec enim diam vulputate ut. In dictum non consectetur a erat nam. Condimentum lacinia quis vel eros donec ac odio tempor orci. Turpis tincidunt id aliquet risus feugiat in ante metus. Sit amet mattis vulputate enim nulla aliquet porttitor. Eu lobortis elementum nibh tellus molestie nunc. Volutpat blandit aliquam etiam erat velit.
+
+Praesent semper feugiat nibh sed. Sed odio morbi quis commodo odio aenean. Facilisis mauris sit amet massa vitae tortor condimentum. Mattis nunc sed blandit libero volutpat sed cras ornare arcu. Lectus vestibulum mattis ullamcorper velit sed ullamcorper. Sagittis orci a scelerisque purus. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Sit amet purus gravida quis blandit turpis cursus in hac. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Convallis posuere morbi leo urna molestie at elementum.
+
+Lacus laoreet non curabitur gravida arcu ac tortor dignissim. Aliquet eget sit amet tellus cras adipiscing. Dui vivamus arcu felis bibendum. Ut sem nulla pharetra diam sit amet nisl. Arcu cursus euismod quis viverra nibh cras. Ultricies mi quis hendrerit dolor magna eget est. Urna nec tincidunt praesent semper. Egestas congue quisque egestas diam in. Lacus sed viverra tellus in. Viverra ipsum nunc aliquet bibendum. Integer vitae justo eget magna fermentum iaculis. Dictum sit amet justo donec enim diam. Ut sem nulla pharetra diam sit amet nisl. Metus dictum at tempor commodo ullamcorper. Arcu ac tortor dignissim convallis aenean et tortor at. Dapibus ultrices in iaculis nunc sed augue lacus viverra. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Platea dictumst quisque sagittis purus sit amet. Elit ut aliquam purus sit. Sed augue lacus viverra vitae.
+
+Vitae tempus quam pellentesque nec. Ultrices vitae auctor eu augue ut lectus arcu bibendum. Fermentum dui faucibus in ornare quam viverra orci. Pulvinar pellentesque habitant morbi tristique senectus et netus. Scelerisque in dictum non consectetur a. At quis risus sed vulputate odio ut enim blandit volutpat. Ultricies integer quis auctor elit sed vulputate. Viverra mauris in aliquam sem fringilla ut morbi tincidunt. Tempor orci dapibus ultrices in. Natoque penatibus et magnis dis. Pellentesque nec nam aliquam sem et tortor consequat. Risus commodo viverra maecenas accumsan lacus.
+
+Ornare massa eget egestas purus viverra accumsan in nisl nisi. Non quam lacus suspendisse faucibus interdum posuere. Et sollicitudin ac orci phasellus. Quam adipiscing vitae proin sagittis nisl rhoncus mattis. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Erat pellentesque adipiscing commodo elit at imperdiet dui. Tortor pretium viverra suspendisse potenti nullam ac tortor. Ornare aenean euismod elementum nisi quis eleifend. Convallis a cras semper auctor neque vitae tempus quam pellentesque. Et tortor at risus viverra adipiscing at. Mauris sit amet massa vitae tortor condimentum. Vel orci porta non pulvinar neque. Porta nibh venenatis cras sed. Tincidunt lobortis feugiat vivamus at augue eget. Aenean pharetra magna ac placerat vestibulum lectus mauris. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Amet massa vitae tortor condimentum.
+
+Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget. Aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus. Vitae auctor eu augue ut lectus arcu bibendum. Vel fringilla est ullamcorper eget nulla. Enim ut tellus elementum sagittis. Fringilla urna porttitor rhoncus dolor purus. Sit amet mauris commodo quis imperdiet massa tincidunt nunc. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Morbi tincidunt augue interdum velit euismod. Ac feugiat sed lectus vestibulum mattis ullamcorper. Nunc aliquet bibendum enim facilisis gravida neque convallis a. Placerat duis ultricies lacus sed turpis. Tellus rutrum tellus pellentesque eu. Massa massa ultricies mi quis hendrerit dolor magna eget. Amet venenatis urna cursus eget nunc scelerisque.
+
+Iaculis urna id volutpat lacus laoreet non curabitur. Volutpat est velit egestas dui id ornare arcu odio ut. Tincidunt eget nullam non nisi est sit amet facilisis magna. Sagittis vitae et leo duis. Lacus vestibulum sed arcu non odio euismod lacinia. Sed lectus vestibulum mattis ullamcorper velit sed. Habitasse platea dictumst quisque sagittis purus sit amet volutpat. Nisl vel pretium lectus quam id leo in vitae turpis. Sagittis orci a scelerisque purus semper. Dictum fusce ut placerat orci. Nulla pellentesque dignissim enim sit amet.
+
+Praesent tristique magna sit amet. Dolor purus non enim praesent elementum facilisis leo vel fringilla. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Gravida in fermentum et sollicitudin ac orci phasellus. Ultricies leo integer malesuada nunc vel risus. Habitant morbi tristique senectus et netus et malesuada fames ac. Malesuada pellentesque elit eget gravida cum sociis. Tellus mauris a diam maecenas sed enim ut sem. Et netus et malesuada fames ac turpis. Egestas sed tempus urna et. Sagittis id consectetur purus ut faucibus. Neque sodales ut etiam sit amet nisl purus in. A pellentesque sit amet porttitor eget. Netus et malesuada fames ac turpis egestas integer. Pharetra massa massa ultricies mi.
+
+\section*{Conclusion}
+Fusce in nibh augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In dictum accumsan sapien, ut hendrerit nisi. Phasellus ut nulla mauris. Phasellus sagittis nec odio sed posuere. Vestibulum porttitor dolor quis suscipit bibendum. Mauris risus lectus, cursus vitae hendrerit posuere, congue ac est. Suspendisse commodo eu eros non cursus. Mauris ultrices venenatis dolor, sed aliquet odio tempor pellentesque. Duis ultricies, mauris id lobortis vulputate, tellus turpis eleifend elit, in gravida leo tortor ultricies est. Maecenas vitae ipsum at dui sodales condimentum a quis dui. Nam mi sapien, lobortis ac blandit eget, dignissim quis nunc.
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\bibliographystyle{unsrt}
+
+\bibliography{sample.bib}
+
+%----------------------------------------------------------------------------------------
+\newpage
+
+\appendix
+\section{Figures}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=3in]{zebras.pdf}
+\caption{This is a herd of zebra.}
+\end{center}
+\end{figure}
+
+\section{Algorithm}
+\begin{algorithm}
+\caption{This is the caption}\label{alg:cap}
+\begin{algorithmic}
+\Require $n \geq 0$
+\Ensure $y = x^n$
+\State $y \gets 1$
+\State $X \gets x$
+\State $N \gets n$
+\While{$N \neq 0$}
+\If{$N$ is even}
+    \State $X \gets X \times X$
+    \State $N \gets \frac{N}{2}$  \Comment{This is a comment}
+\ElsIf{$N$ is odd}
+    \State $y \gets y \times X$
+    \State $N \gets N - 1$
+\EndIf
+\EndWhile
+\end{algorithmic}
+\end{algorithm}
+
+\section{Yet another appendix}
+\end{document}
